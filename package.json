@@ -1,0 +1,26 @@
+{
+  "name": "vsg-chat",
+  "version": "1.0.0",
+  "description": "Real-time Socket.io Chat for VSG",
+  "main": "chat.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "node",
+    "socket.io",
+    "express",
+    "javascript"
+  ],
+  "author": "Clotia JoHari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
