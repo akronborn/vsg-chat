@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./public/favicon.ico" sizes="any" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
@@ -10,19 +11,19 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style/chat.css" />
-    <title>Verda Stelo Gaming Chat</title>
+    <title>Verda Stelo Chat</title>
   </head>
   <body>
     <div class="chat-container">
       <header class="chat-header">
-        <h1><i class="far fa-star"></i> VSG Chat</h1>
-        <a id="leave-btn" class="btn">Leave Room</a>
+        <h1><i class="far fa-star"></i> Verda Stelo Chat</h1>
+        <a id="leave-btn" class="btn">Exit Chat</a>
       </header>
       <main class="chat-main">
         <div class="chat-sidebar">
-          <h3><i class="fas fa-comments"></i> Current Room:</h3>
+          <h3><i class="fas fa-door-open"></i> Room Name:</h3>
           <h2 id="room-name"></h2>
-          <h3><i class="fas fa-users"></i> Users</h3>
+          <h3><i class="fas fa-glass-cheers"></i> Online Now:</h3>
           <ul id="users"></ul>
         </div>
         <div class="chat-messages"></div>
@@ -47,6 +48,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="/socket.io/socket.io.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
