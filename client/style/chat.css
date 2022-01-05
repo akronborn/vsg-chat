@@ -154,6 +154,8 @@ a {
 .join-main {
   padding: 30px 40px;
   background: var(--2nd-color);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .join-main p {
