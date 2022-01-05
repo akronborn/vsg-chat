@@ -136,6 +136,12 @@ a {
   flex: 1;
 }
 
+.footer {
+  color: var(--dark-color-a);
+  padding-top: 35px;
+  text-align: center;
+}
+
 /* Join Page */
 .join-container {
   max-width: 500px;
