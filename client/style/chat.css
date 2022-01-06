@@ -198,6 +198,16 @@ a {
   width: 100%;
 }
 
+.Link {
+  color: white;
+  font-family: "Special Elite", cursive;
+  border: 5px;
+  background: rgb(144, 214, 211);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
 #users {
   font-family: "Special Elite", cursive;
   font-weight: bold;
