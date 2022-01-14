@@ -37,7 +37,7 @@ a {
 .btn {
   cursor: pointer;
   padding: 5px 15px;
-  background: var(--light-color);
+  background: white;
   color: var(--dark-color-a);
   border-radius: 0.6em;
   border: 0;
