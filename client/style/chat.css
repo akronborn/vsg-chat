@@ -206,18 +206,20 @@ a {
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 0.6em;
-  border: 2px solid rgb(144, 214, 211);
+  border: 2px solid white;
   background-color: transparent;
   font-size: 17px;
   cursor: pointer;
   padding: 5px 15px;
   text-decoration: none;
+  background: rgb(32, 119, 126);
+  text-align: center;
 }
 
 .Link:hover {
-  background: var(--light-color);
-  border: 2px solid rgb(144, 214, 211);
-  color: rgb(144, 214, 211);
+  background: white;
+  border: 2px solid rgba(183, 243, 230, 0.1);
+  color: var(--success-color);
 }
 
 #users {
