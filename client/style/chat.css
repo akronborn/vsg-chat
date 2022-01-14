@@ -103,7 +103,8 @@ a {
 .chat-messages .message {
   padding: 10px;
   margin-bottom: 15px;
-  background-color: rgb(144, 214, 211);
+  /* background-color: rgb(144, 214, 211); */
+  background: linear-gradient(rgb(89, 179, 182), rgb(32, 119, 126));
   border-radius: 5px;
   overflow-wrap: break-word;
 }
@@ -230,7 +231,7 @@ a {
 .text {
   font-family: "Special Elite", cursive;
   font-size: 16px;
-  color: #381818;
+  color: #fdfcfc;
 }
 
 @media (max-width: 700px) {
