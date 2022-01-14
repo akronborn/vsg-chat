@@ -140,9 +140,10 @@ a {
 }
 
 .footer {
-  color: rgb(92 78 175);
+  color: black;
   padding-top: 35px;
   text-align: center;
+  font-weight: bolder;
 }
 
 /* Join Page */
