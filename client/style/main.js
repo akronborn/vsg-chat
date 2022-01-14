@@ -10,7 +10,7 @@ const { username, room } = Qs.parse(location.search, {
 
 const socket = io();
 
-// Join chatroom
+// Join
 socket.emit("joinRoom", { username, room });
 
 // Get room and users
@@ -82,7 +82,7 @@ function outputUsers(users) {
 
 //Prompt the user before leave chat room
 document.getElementById("leave-btn").addEventListener("click", () => {
-  const leaveRoom = confirm("Ready to exit the chat?");
+  const leaveRoom = confirm("Ready to exit this chatroom?");
   if (leaveRoom) {
     window.location = "./index.html";
   } else {
