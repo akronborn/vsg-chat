@@ -48,6 +48,11 @@ a {
   margin-left: 5px;
 }
 
+.btn:hover:active {
+  text-shadow: 2px 2px 5px rgb(32, 119, 126);
+  font-size: 19px;
+}
+
 /* Chat Page */
 
 .chat-container {
