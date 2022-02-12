@@ -48,7 +48,12 @@ a {
   margin-left: 5px;
 }
 
-.btn:hover:active {
+.btn:hover {
+  text-shadow: 2px 2px 5px rgb(32, 119, 126);
+  font-size: 19px;
+}
+
+.btn:active {
   text-shadow: 2px 2px 5px rgb(32, 119, 126);
   font-size: 19px;
 }
